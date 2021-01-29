@@ -1,7 +1,20 @@
+/* estilos generales de etiquetas */
+body {
+}
+
+/* estilos personalizados */
 .wrapper1 {
-    background-color: rgb(207, 204, 48)
+  width: 80%;
+  background-color: rgb(207, 204, 48);
 }
 
 .wrapper2 {
-    background-color: rgb(39, 161, 172)
+  width: 20%;
+  background-color: rgb(39, 161, 172);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
 }
