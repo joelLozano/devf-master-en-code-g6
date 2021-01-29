@@ -6,13 +6,13 @@ body {
 .wrapper1 {
   width: 80%;
   height: 100%;
-  background-color: rgb(207, 204, 48);
+  background-color: rgb(245, 240, 240);
 }
 
 .wrapper2 {
   height: 100%;
   width: 20%;
-  background-color: rgb(39, 161, 172);
+  background-color: rgb(216, 230, 231);
 }
 
 .container {
