@@ -1,20 +1,20 @@
 Lista de temas
 
-1- Que es un dominio
-2- Que es un hosting
-3 HTML basico
-4- HTML semántico (main, article, section...).
-5- comentarios en HTML
+- Que es un dominio
+- Que es un hosting
+- HTML basico
+- HTML semántico (main, article, section...).
+- comentarios en HTML
 
 Ejercicios
 
 - Estructura basica de un archivo HTML
 
-0- Etiqueta meta
-1- Etiqueta docType
-2- Etiqueta html
-3- Etiqueta Head
-4- Etiqueta body
+- Etiqueta meta
+- Etiqueta docType
+- Etiqueta html
+- Etiqueta Head
+- Etiqueta body
 
 Enlaces Adicionales
 

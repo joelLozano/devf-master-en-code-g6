@@ -1,11 +1,11 @@
 Lista de temas
 
-1 - Box model
-2 - Etiqueta <link>
-3 - Definicion de estilos
-4 - Atributo style
-5 - Estilos Generales
-6 - Estilos Especificos
+- Box model
+- Etiqueta <link>
+- Definicion de estilos
+- Atributo style
+- Estilos Generales
+- Estilos Especificos
 
 Enlaces Adicionales
 

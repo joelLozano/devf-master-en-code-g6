@@ -1,9 +1,9 @@
 Lista de temas.
 
-1- La Web y la internet
-2- Arquitectura cliente Servidor
-3- Backend y Front end
-4- HTML, CSS y javascript
+- La Web y la internet
+- Arquitectura cliente Servidor
+- Backend y Front end
+- HTML, CSS y javascript
 
 Enlaces Adicionales
 
