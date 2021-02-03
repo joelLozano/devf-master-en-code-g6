@@ -1,0 +1,65 @@
+Existen 3 formas de mandar llamar a nuestras etiquetas 
+dentro de un archivo CSS
+
+1: Mediante etiquetas
+
+ejemplo: 
+
+html -------------------------
+        <section>
+            <div>
+                <h1>Hola </h1>
+            </div>
+        </section>
+css --------------------------
+
+    h1 {
+        color: red;
+    }
+
+
+2: Mediante clases.
+
+En la etiqueta  html, se ingresa la palabra reservada class="",
+y dentro de las comillas el nombre con el que deseemos que identifique , class="nombreDeLaClase"
+
+ejemplo: 
+
+html -------------------------
+        <section>
+            <div class="customDiv">
+                <h1>Hola </h1>
+            </div>
+        </section>
+css --------------------------
+
+    .customDiv {
+        color: red;
+    }
+
+    en el CSS accedemos a la clase mediante el operador punto . y nombre de la clase
+
+    
+
+3: Mediante id (identificadores).
+
+En la etiqueta html, se ingresa la palabra reservada id="",
+y dentro de las comillas el nombre con el que deseemos que identifique , div="nombreDelID"
+
+ejemplo: 
+
+html -------------------------
+        <section>
+            <div class="nombreDelID">
+                <h1>Hola </h1>
+            </div>
+        </section>
+css --------------------------
+
+    #nombreDelID {
+        color: red;
+    }
+
+en el CSS le decimos que es un ID por el simbolo # 
+
+
