@@ -11,3 +11,5 @@ Lista de temas.
 - text align
 
 Enlaces Adicionales
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
