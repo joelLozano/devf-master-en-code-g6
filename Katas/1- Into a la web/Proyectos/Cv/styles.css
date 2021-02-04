@@ -1,30 +1,42 @@
 /* estilos generales de etiquetas */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Roboto", sans-serif;
+  margin: 0;
   /* font-style: italic; */
 }
 
 h1 span {
-  color: blue;
+  color: rgb(28, 145, 240);
+}
+
+h3 {
+  color: rgb(28, 145, 240);
+  margin-bottom: 32px;
+  margin-top: 32px;
+  font-size: 24px;
 }
 
 /* estilos personalizados */
 .wrapper1 {
   width: 80%;
-  height: 100%;
   background-color: rgb(245, 240, 240);
   padding: 48px;
 }
 
 .wrapper2 {
-  height: 100%;
   width: 20%;
+  padding: 48px;
   background-color: rgb(216, 230, 231);
+  display: flex;
+  justify-content: center;
 }
 
 .container {
@@ -32,6 +44,38 @@ h1 span {
   width: 100vw;
   display: flex;
   flex-direction: row-reverse;
+}
+
+.profession {
+  font-weight: 300;
+}
+
+.header {
+  margin-bottom: 80px;
+}
+
+.avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 150px;
+  border: 3px solid rgba(22, 112, 196, 0.897);
+}
+
+.interests ul li {
+  list-style: none;
+  margin: 0;
+  margin-left: 25px;
+}
+
+.interests ul li:first-child {
+  margin: 0;
+}
+
+.interests ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
 
 /* unidades de medida: %, px, vh, vw */
