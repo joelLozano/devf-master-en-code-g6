@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    background-color: brown;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.container div {
+    background-color: burlywood;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+}
