@@ -78,4 +78,35 @@ h3 {
   padding: 0;
 }
 
+.skills ul li {
+  display: flex;
+  align-items: center;
+}
+
+.bar {
+  margin-left: 10px;
+  background-color: blue;
+  width: 250px;
+  height: 5px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 70px;
+  position: absolute;
+  top: -5px;
+  left: 80%;
+  background-color: blue;
+}
+
+.secondCircle {
+  left: 50%;
+}
+
+.other {
+  left: 20%;
+}
 /* unidades de medida: %, px, vh, vw */
