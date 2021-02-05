@@ -52,6 +52,7 @@ a:link, a:visited {
 }
 
 .container {
+  display: flex;
   flex-direction: column-reverse;
   height: auto;
   width: 100%;
@@ -140,6 +141,7 @@ a:link, a:visited {
 
 /* tablet */
 @media screen and (min-width: 420px) {
+
 }
 
 /* desktop */
