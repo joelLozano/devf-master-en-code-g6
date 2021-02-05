@@ -24,6 +24,15 @@ h3 {
   font-size: 24px;
 }
 
+li {
+  list-style-type: none;
+}
+
+li a img{
+  width: 25px;
+  height: 25px;
+}
+
 /* estilos personalizados */
 .wrapper1 {
   width: 80%;
@@ -108,5 +117,9 @@ h3 {
 
 .other {
   left: 20%;
+}
+
+.contact div ul {
+  display: flex;
 }
 /* unidades de medida: %, px, vh, vw */
