@@ -1,0 +1,43 @@
+.code {
+    background-color: rgba(133, 131, 131, 0.541);
+}
+pre{
+    background-color: rgb(90, 141, 90);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.container div {
+    background-color: burlywood;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+/* flex con wrap  */
+
+.container1{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: brown;
+    padding: 10px;
+    border: 2px solid black;
+}
+.container1 div {
+    background-color: burlywood;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+}
