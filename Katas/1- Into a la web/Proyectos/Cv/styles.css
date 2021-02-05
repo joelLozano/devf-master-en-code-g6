@@ -33,6 +33,11 @@ li a img{
   height: 25px;
 }
 
+a:link, a:visited { 
+  color: black;
+  text-decoration: none;
+}
+
 /* estilos personalizados */
 .wrapper1 {
   width: 80%;
@@ -121,5 +126,14 @@ li a img{
 
 .contact div ul {
   display: flex;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+}
+
+.skill span {
+  width: 150px;
 }
 /* unidades de medida: %, px, vh, vw */
