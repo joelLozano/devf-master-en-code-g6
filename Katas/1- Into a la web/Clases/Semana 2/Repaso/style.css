@@ -1,0 +1,30 @@
+.container {
+    background-color: blanchedalmond;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.container div {
+    background-color: brown;
+    width: 21%;
+    padding: 10px;
+    margin: 1px;
+    color: white;
+}
+
+.height1 {
+    height: 140px;
+}
+.height2 {
+    height: 120px;
+}
+
+.height3 {
+    height: 155px;
+}
+
+.height4 {
+    height: 90px;
+}
