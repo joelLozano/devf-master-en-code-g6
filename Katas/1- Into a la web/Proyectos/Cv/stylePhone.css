@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+
+    .wrapper2 {
+      width: 100%;
+      padding: 10px;
+      background-color: rgb(88, 92, 92);
+    }
+  
+    .bar {
+      background-color: blue;
+      width: 50px;
+      height: 5px;
+      border-radius: 8px;
+      position: relative;
+    }
+    
+    .circle {
+      width: 15px;
+      height: 15px;
+      border-radius: 70px;
+      position: absolute;
+      top: -5px;
+      background-color: blue;
+    }
+
+  
+  }
