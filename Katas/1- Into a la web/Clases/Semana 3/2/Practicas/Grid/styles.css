@@ -1,0 +1,48 @@
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:  repeat(12,1fr);
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(108, 202, 206, 0.246);
+}
+
+.content1 {
+    background-color: rgba(220, 20, 60, 0.397);
+    height: 50%;
+    width: 50%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.content2 {
+    background-color: rgba(197, 20, 220, 0.397);
+    height: 50%;
+    width: 50%;
+    grid-column-start:3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.content3 {
+    background-color: rgba(220, 20, 60, 0.397);
+    height: 50%;
+    width: 50%;
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 11;
+    grid-row-end: 13;
+}
+
+.content4 {
+    background-color: rgba(197, 20, 220, 0.397);
+    height: 50%;
+    width: 50%;
+    grid-column-start:9;
+    grid-column-end: 11;
+    grid-row-start: 11;
+    grid-row-end: 13;
+}

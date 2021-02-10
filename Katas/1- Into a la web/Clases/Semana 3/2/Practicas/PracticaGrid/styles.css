@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(231, 231, 231);
+}
+
+.section1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url(https://picsum.photos/1500/1500);
+    background-size: cover;
+    padding: 24px;
+}
+
+.section1 section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 section h2 {
+    color: white;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.section2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #7b1313;
+    width: 100%;
+    height: 100%;
+}
+
+.section2 section h4 {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
