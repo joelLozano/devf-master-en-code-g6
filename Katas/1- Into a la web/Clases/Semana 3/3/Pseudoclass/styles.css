@@ -42,3 +42,37 @@ a:visited {
     background-color: whitesmoke;
     color: rgba(156, 14, 14, 0.767);
 }
+
+
+.card {
+  margin-top: 200px;
+  width: 550px;
+  height: 550px;
+  background-image: url(https://media.contentapi.ea.com/content/dam/gin/images/2020/06/fifa21-keyart-horizontal-16x9.png.adapt.crop1x1.767w.png);
+  background-size: cover;
+}
+
+.darkBackground {
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkBackground img {
+  width: 250px;
+  height: 250px;
+  opacity: 0;
+}
+
+.darkBackground:hover {
+ background-color: rgba(0, 0, 0, 0.363);
+}
+
+.darkBackground:hover img {
+  opacity: 1;
+  width: 350px;
+  height: 350px;
+}
