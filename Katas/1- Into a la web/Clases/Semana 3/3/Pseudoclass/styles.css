@@ -66,7 +66,6 @@ a:visited {
 .darkBackground img {
   width: 250px;
   height: 250px;
-  opacity: 0;
 }
 
 .darkBackground:hover {
@@ -74,7 +73,6 @@ a:visited {
 }
 
 .darkBackground:hover img {
-  opacity: 1;
   width: 350px;
   height: 350px;
 }
