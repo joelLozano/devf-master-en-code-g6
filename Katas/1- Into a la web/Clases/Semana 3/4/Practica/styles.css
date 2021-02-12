@@ -1,0 +1,115 @@
+.container {
+    position: relative;
+}
+
+.base {
+    font-size: 60px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.first{
+    color: rgb(0, 118, 211);
+    animation-name: firstAnimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+.second {
+    color: rgb(0, 211, 28);
+    animation-name: secondAnimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+.tres{
+    color: rgb(211, 60, 0);
+    animation-name: tresAnimacion;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+.cuatro {
+    color: rgb(211, 0, 193);
+    animation-name: cuatroAnimacion;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+
+@keyframes firstAnimation {
+    0% {
+        transform: translateY(40px);
+    }
+    12% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    25% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+}
+
+@keyframes secondAnimation {
+    25% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    32% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+}
+
+@keyframes tresAnimacion {
+    50% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    62% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    75% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+}
+
+@keyframes cuatroAnimacion {
+    75% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    87% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+}
