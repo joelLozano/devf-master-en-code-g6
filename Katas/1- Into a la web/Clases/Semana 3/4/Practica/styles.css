@@ -8,38 +8,29 @@
     position: absolute;
     top: 0;
     left: 0;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
 
 .first{
     color: rgb(0, 118, 211);
     animation-name: firstAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    opacity: 0;
 }
 
 .second {
     color: rgb(0, 211, 28);
     animation-name: secondAnimation;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    opacity: 0;
 }
 
 .tres{
     color: rgb(211, 60, 0);
     animation-name: tresAnimacion;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    opacity: 0;
 }
 
 .cuatro {
     color: rgb(211, 0, 193);
     animation-name: cuatroAnimacion;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    opacity: 0;
 }
 
 
