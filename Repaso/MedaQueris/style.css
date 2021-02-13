@@ -1,0 +1,153 @@
+.menu {
+    background-color: rgb(6, 4, 75);
+    margin: 5px;
+    padding: 20px;
+}
+.menu a {
+    color: white;
+    padding: 10px;
+}
+
+.menuLateral {
+    margin: 2px;
+}
+
+.menuLateral div{
+    padding: 10px;
+    background-color: rgb(37, 83, 233);
+    color: white;
+}
+
+.contenido{
+    margin: 2px;
+}
+
+.galeria{
+    width: 100%;
+}
+
+.imagenStyle{
+    width: 100%;
+}
+
+
+.footer{
+    padding: 5px;
+    color: white;
+    background-color: rgba(25, 25, 180, 0.87);
+    display: flex;
+    justify-content: center;
+}
+
+.footer div {
+    margin: 3px;
+}
+
+.textoDesktop{
+    display: none;    
+}
+
+
+/* Diseño de Tablet */
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1px;
+    }
+
+    .menuLateral {
+        width: 20%;
+    }
+
+    .contenido{
+        margin-left: 30px;
+        width: 60%;
+    }
+
+    .galeria{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .galeria div {
+        margin: 5px;
+        width: 45%;
+    }
+
+    .footer{
+        width: 100%;
+        padding: 100px;
+    }
+
+    .textoDesktop{
+        display: none;    
+    }
+
+}
+
+@media screen and (min-width: 769px){
+        .contenedor{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 1px;
+        }
+    
+        .menuLateral {
+            width: 10%;
+        }
+
+        .option:hover {
+            margin: 5px;
+            background-color: rgb(59, 99, 230);
+        }
+    
+        .contenido{
+            margin-left: 30px;
+            width: 55%;
+        }
+
+    
+        .galeria{
+            width: 30%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .galeria div {
+            width: 45%;
+            margin: 4px;
+        }
+    
+        .footer{
+            width: 100%;
+            padding: 100px;
+        }
+
+        .button{
+            width: 200px;
+            color: white;
+            background-color: red;
+        }
+
+        .button:hover{
+            background-color: rgb(202, 92, 92);
+        }
+        .button:active{
+            width: 198px;
+            color: violet;
+        }
+
+        a:hover{
+            color: turquoise;
+            font-size: 15px;
+        }
+
+        a:link{
+            color: blue;
+        }
+
+        a:active {
+            color: red;
+        }
+
+}

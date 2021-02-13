@@ -1,0 +1,119 @@
+/* la etiqueta */
+body{
+    background-color: gainsboro;
+}
+
+/* clases  */
+.autoria p{
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 100%;
+    color: brown;
+}
+
+/* id o identificador */
+#titulos {
+    color: orange;
+}
+
+div{
+border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    background-color: white;
+    border: 0;
+    width: 80%;
+    height: 50px;
+}
+
+.buscador{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.headContenido{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.seccionContenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seccionContenido p{
+    width: 150px;
+    margin: 10px;
+}
+
+
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+    display: flex;
+    align-content: flex-start;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.container div {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    width: 11%;
+    height: 100px;
+    background-color: green;
+}
+
+.container .uno{
+    height: 200px;
+}
+
+.container .dos{
+    height: 250px;
+}
+
+.container .tres{
+    height: 100px;
+}
+
+.container .unoMargin {
+    margin-top: 0;
+}
+.container .dosMargin {
+    height: 100px;
+    margin-top: 1%;
+}
+
+.container .seisMargin {
+    margin-top: 2%;
+}
+
+.container .sieteMargin {
+    height: 100px;
+    margin-top: 45px;
+}
+
+.contenedorImagen{
+    margin-top: 10px;
+    background-color: gray;
+}
+
+.imagen1{
+    width: 150px;
+    height: 150px;
+}
+
+.imagenFondo{
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url("./assets/img.jpeg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
