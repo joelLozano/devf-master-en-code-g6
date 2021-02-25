@@ -1,0 +1,26 @@
+@media screen and (min-width: 481px) and (min-width: 768px) { 
+
+    .contenedor {
+        background-color: rgba(153, 152, 152, 0.911);
+        margin-top: 0px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .card{
+        width: 100%;
+        height: auto;
+        margin: 5px;
+        background-color: white;
+    }
+
+    .card p{
+        font-size: 10px;
+    }
+
+    .portada button {
+        display: none;
+    }
+}
