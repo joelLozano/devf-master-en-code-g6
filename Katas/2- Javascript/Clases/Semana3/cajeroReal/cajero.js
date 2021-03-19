@@ -47,8 +47,3 @@ function consultarBalance(id) {
     console.log("Tu saldo es de", usuario.saldo);
   }
 }
-
-login();
-console.log(loginValido);
-consultarBalance(idUsuario);
-consultarBalance(idUsuario);
