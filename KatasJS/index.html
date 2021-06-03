@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+        .marginDivs{
+            padding: 10px;
+        }
+
+        .EstiloVolatil1{
+            background-color:  rgb(221, 218, 218);
+        }
+        .EstiloVolatil2{
+            background-color:  rgb(184, 34, 34);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Hola, buen dia </h1>
+
+    <input type="text" id="user">
+    <input type="password" id="password">
+    <button onclick="login()">Login</button>
+    
+
+    <p id="mostrarError" style="color: red;"></p>
+    <p id="mostrarSuccess" style="color: green;"></p>
+
+
+    <section id="sectionOperaciones"   class="EstiloVolatil1">
+        
+        <div id="saldoActual"></div>
+
+        <div id="divDepositar" class="marginDivs">
+            <input id="montoAdepositar" type="text" placeholder="monto a depositar"> 
+            <button onclick="depositar()">Depositar</button>
+        </div>
+        <br>
+        <div id="divRetirar" class="marginDivs">
+            <input id="montoRetirar" type="text" placeholder="monto a retirar"> 
+            <button onclick="retirar()">Retirar</button>
+            <p id="messageRetiro"></p>
+        </div>
+        <br>
+        <div id="divConsultar" class="marginDivs">
+            <button onclick="mostrarSaldo()">Mostrar Saldo</button>
+        </div>
+    </section>
+
+    <script src="./cajero.js"></script>
+</body>
+</html>
